@@ -22,7 +22,6 @@ import mainClasses.Managers;
 
 public class MBank implements IClientActions, IAdminActions{
 
-	
 
 
 	private static MBank MBank = null;
@@ -45,6 +44,8 @@ public class MBank implements IClientActions, IAdminActions{
 		Thread t = new Thread(c);
 		
 	    t.start();
+	    
+	    System.out.println("tets 1");
 		
 	}
 	
