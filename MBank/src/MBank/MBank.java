@@ -44,8 +44,6 @@ public class MBank implements IClientActions, IAdminActions{
 		Thread t = new Thread(c);
 		
 	    t.start();
-	    
-	    System.out.println("tets 1");
 		
 	}
 	
